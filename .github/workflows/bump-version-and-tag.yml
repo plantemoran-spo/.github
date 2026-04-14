@@ -18,6 +18,8 @@ on:
 jobs:
   call-shared-version-bump-workflow:
     name: Call Shared Version Bump Workflow
-    uses: plantemoran-spo/shared-github-workflows/.github/workflows/shared--bump-version-amd-tag--node.yml@develop
+    permissions:
+      contents: write
+    uses: plantemoran-spo/shared-github-workflows/.github/workflows/shared--bump-version-amd-tag--node.yml@v1
     with:
       bumpType: ${{ inputs.bumpType }}

@@ -4,7 +4,7 @@
 
 ### New Features
 
-- Added Bump Version and Tag workflow
+- Added Bump Version and Tag workflow ([#3][issue-03])
 
 ## 2026-04-14 v0.1.0
 
@@ -16,3 +16,4 @@
 <!-- reference URLs -->
 
 [issue-01]: ../../issues/1
+[issue-03]: ../../issues/3
