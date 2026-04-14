@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-04-14 v0.2.0
+## Unreleased
 
 ### New Features
 
