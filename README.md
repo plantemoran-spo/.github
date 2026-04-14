@@ -9,10 +9,10 @@ For more information, please see [Creating a default community health file][gh-c
 
 ## Organization Profile
 
-This special repository also contains a special file `/.profile/README.md` that will appear on the organization's profile.
+This special repository also contains a special file `/profile/README.md` that will appear on the organization's profile.
 
 <!-- reference URLs -->
 
-[gh-action-lint]: https://gitgub.com/plantemoran-spo/.github/actions/workflows/linting.yml
+[gh-action-lint]: https://github.com/plantemoran-spo/.github/actions/workflows/linting.yml
 [gh-creating-default-community-health-file]: https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file
-[img-gh-action-linting-badge]: https://gitgub.com/plantemoran-spo/.github/actions/workflows/linting.yml/badge.svg
+[img-gh-action-linting-badge]: https://github.com/plantemoran-spo/.github/actions/workflows/linting.yml/badge.svg

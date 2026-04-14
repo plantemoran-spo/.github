@@ -15,10 +15,10 @@ end_of_line = crlf
 # use spaces for indentation
 indent_style = space
 
-# default indent size is 4 spaces
+# default indent size is 2 spaces
 indent_size = 2
 
-# trim trailing whitepace
+# trim trailing whitespace
 trim_trailing_whitespace = true
 
 # ensure a final newline at end of file
