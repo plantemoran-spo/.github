@@ -1,6 +1,12 @@
 # Changelog
 
-## 2026-04-14
+## 2026-04-14 v0.2.0
+
+### New Features
+
+- Added Bump Version and Tag workflow
+
+## 2026-04-14 v0.1.0
 
 ### New Features
 
