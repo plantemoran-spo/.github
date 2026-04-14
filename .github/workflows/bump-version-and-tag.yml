@@ -1,0 +1,23 @@
+name: bump Version and Tag Repo
+
+run-name: Bump Version and Tag Repo - requested by ${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      bumpType:
+        description: "Type of version bump (major, minor, or patch)"
+        required: true
+        default: "patch"
+        type: choice
+        options:
+          - major
+          - minor
+          - patch
+
+jobs:
+  call-shared-version-bump-workflow:
+    name: Call Shared Version Bump Workflow
+    uses: plantemoran-spo/shared-github-workflows/.github/workflows/shared--bump-version-amd-tag--node.yml@develop
+    with:
+      bumpType: ${{ inputs.bumpType }}
