@@ -9,4 +9,4 @@
 
 <!-- reference URLs -->
 
-[issue-01]: ../../../issues/1
+[issue-01]: ../../issues/1

@@ -7,8 +7,8 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 ## Creating Issues
 
-- You can [create an issue](../../../issues/new/choose), but before doing that please read the bullets below and include as many details as possible.
-- Perform a [cursory search](../../../issues) to see if a similar item has already been submitted.
+- You can [create an issue](../../issues/new/choose), but before doing that please read the bullets below and include as many details as possible.
+- Perform a [cursory search](../../issues) to see if a similar item has already been submitted.
 
 ## Recommended setup for contributing
 
