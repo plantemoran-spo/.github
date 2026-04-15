@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "markdownlint-cli": "^0.48.0"
-  }
+  },
+  "version": "0.1.0"
 }
