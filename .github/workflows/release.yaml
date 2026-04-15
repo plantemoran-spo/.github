@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       bumpType:
-        description: "Type of version bump (major, minor, or patch)"
+        description: 'Type of version bump (major, minor, or patch)'
         required: true
-        default: "patch"
+        default: 'patch'
         type: choice
         options:
           - major
@@ -16,6 +16,10 @@ on:
   push:
     branches:
       - develop
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
   NODE_VERSION: 22.x
@@ -75,7 +79,7 @@ jobs:
             const unreleasedMatch = changelog.match(unreleasedHeaderRegex);
 
             if(!unreleasedMatch || unreleasedMatch.index === undefined) {
-              throw new Error('Could not find and Unreleased section in CHANGELOG.md.');
+              throw new Error('Could not find an Unreleased section in CHANGELOG.md.');
             }
 
             const headerStart = unreleasedMatch.index;
